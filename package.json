@@ -1,0 +1,32 @@
+{
+  "name": "TechTask",
+  "version": "1.0.0",
+  "description": "An introduction to TechTask",
+  "main": "app.js",
+  "scripts": {
+    "start": "webpack app.js --mode development --watch",
+    "test": "jest"
+  },
+  "keywords": [
+    "js",
+    "javascript",
+    "testing",
+    "jest",
+    "unit",
+    "tests",
+    "integration",
+    "tests",
+    "e2e",
+    "tests"
+  ],
+  "author": "Md. Mohiuddin Mahmud",
+  "license": "ISC",
+  "devDependencies": {
+    "jest": "^25.5.4",
+    "webpack": "^4.20.2",
+    "webpack-cli": "^3.1.2"
+  },
+  "dependencies": {
+    "axios": "^0.19.2"
+  }
+}
