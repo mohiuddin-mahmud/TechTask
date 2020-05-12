@@ -22,11 +22,16 @@
   "author": "Md. Mohiuddin Mahmud",
   "license": "ISC",
   "devDependencies": {
+    "eslint": "^6.8.0",
+    "eslint-config-airbnb-base": "^14.1.0",
+    "eslint-plugin-import": "^2.20.2",
     "jest": "^25.5.4",
     "webpack": "^4.20.2",
     "webpack-cli": "^3.1.2"
   },
   "dependencies": {
-    "axios": "^0.19.2"
+    "axios": "^0.19.2",
+    "moment": "^2.25.3",
+    "round-to": "^4.1.0"
   }
 }
